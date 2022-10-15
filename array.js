@@ -54,6 +54,31 @@ const fruits9=["Banana","Orange","Apple"];
 
 //JavaScript Sorting Arrays
 const fruits10=["Banana","Orange","Apple"]; // Last to first sort
+//console.log(fruits9.sort());
 
 //Reversing an Array
-console.log(fruits9.sort());
+//console.log(fruits10.reverse());
+
+//Sort the array in ascending order:
+const NumberOfPoints=[200,10,40,60,30,80,90,45];
+const NumberOfPoints1=[200,10,40,60,30,80,90,45];
+NumberOfPoints.sort(function(a,b){return(a-b)});
+NumberOfPoints1.sort(function(a,b){return(b-a)});
+//console.log(NumberOfPoints1);
+
+//The Compare Function
+
+const points = [40, 100, 1, 5, 25, 10];
+document.getElementById("sort").innerHTML=points;
+
+function myFunction1(){ // It's common function 
+  points.sort();
+  document.getElementById("sort").innerHTML=points;
+}
+
+function myFunction2(){ // It's calculation the sort function
+  points.sort(function(a,b){return (a-b)});
+  document.getElementById("sort").innerHTML=points;
+}
+
+//Sorting an Array in Random Order
