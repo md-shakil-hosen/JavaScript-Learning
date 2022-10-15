@@ -80,6 +80,19 @@ function myFunction2(){ // It's calculation the sort function
   points.sort(function(a,b){return (a-b)});
   document.getElementById("sort").innerHTML=points;
 }
+const friendsName= ['Shakil', 'Imran', 'Hemel', 'Shohan','Pias','Hamim','Sadia', 'Joya','Kanta','mitu'];
+document.getElementById('randomText').innerHTML=friendsName;
+function randomMath(){
+  friendsName.sort(function() {return 0.5 -Math.random()});
+  document.getElementById('randomText').innerHTML=friendsName;
+}
+
+// Check Random number 
+const randomNumberGen=[20, 38, 56, 45, 84, 82, 24, 13];
+document.getElementById("randomNum").innerHTML=randomNumberGen;
+function randomNumber(){
+randomNumberGen.sort(function() {return 0.5- Math.random()});
+document.getElementById("randomNum").innerHTML=randomNumberGen;
+}
 
 //Sorting an Array in Random Order
-// Yes Done
