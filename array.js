@@ -110,3 +110,26 @@ function myRandomNumber(){
 }
 
 //Find the Highest (or Lowest) Array Value
+const lowestNumber=[20, 38, 56, 45, 84, 82, 24, 13];
+document.getElementById("lowestText").innerHTML=lowestNumber;
+
+lowestNumber.sort(function(a,b){return a-b});
+document.getElementById("lowestText").innerHTML=lowestNumber[0];
+
+// Trying to self (find to lower string number)
+
+const indexingLowerStringName=[20,025,62,89,5256,26,23,25,89,45];
+indexingLowerStringName.sort(function(a,b){return (b-a)});
+document.getElementById("indexinglowerName").innerHTML=indexingLowerStringName;
+
+// Understand Clear 
+// Using Math.max() on an Array sort right Method
+const points22 = [40, 100, 1, 5, 25, 10];
+document.getElementById("numberRightMethod1").innerHTML = myArrayMax(points22);
+
+function myArrayMax(arr) {
+  return Math.max.apply(null, arr); // It's right method for max finding array
+}
+
+// Find The 
+
