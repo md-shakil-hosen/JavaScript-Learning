@@ -95,4 +95,18 @@ randomNumberGen.sort(function() {return 0.5- Math.random()});
 document.getElementById("randomNum").innerHTML=randomNumberGen;
 }
 
-//Sorting an Array in Random Order
+//The Fisher Yates Method
+const randomNumbeCreate=[20, 38, 56, 45, 84, 82, 24, 13];
+document.getElementById("randomNumValue").innerHTML=randomNumbeCreate;
+
+function myRandomNumber(){
+  for(let i=randomNumbeCreate.length-1; i>0; i--){
+    let j=Math.floor(Math.random()*(1 * i));
+    let k=randomNumbeCreate[i];
+    randomNumbeCreate[i]=randomNumbeCreate[j];
+    randomNumbeCreate[j]=k;
+  }
+  document.getElementById("randomNumValue").innerHTML=randomNumbeCreate;
+}
+
+//Find the Highest (or Lowest) Array Value
