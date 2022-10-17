@@ -131,5 +131,31 @@ function myArrayMax(arr) {
   return Math.max.apply(null, arr); // It's right method for max finding array
 }
 
-// Find The 
+// Sorting Object Arrays
+const cars = [
+  {type:"Volvo", year:2016},
+  {type:"Saab", year:2001},
+  {type:"BMW", year:2010}
+];
+displayCars();
+cars.sort(function(a,b){return (a.type - b.year)});
+displayCars();
+document.getElementById("carsArray").innerHTML=cars;
+
+//My Min / Max JavaScript Methods
+const points23 = [40, 100, 1, 5, 25, 10];
+document.getElementById('MaxNumber').innerHTML=myArrayMax(points);
+
+function myArrayMax(arr){
+  let len = arr.length;
+  let max = Infinity;
+  while (len --){
+    if (arr[len]<max){
+      max = arr[len];
+    }
+  }
+  return max;
+}
+
+//JavaScript Array Iteration - ponorabitri
 
