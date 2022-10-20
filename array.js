@@ -158,4 +158,5 @@ function myArrayMax(arr){
 }
 
 //JavaScript Array Iteration - ponorabitri
+//JavaScript Array forEach()
 
