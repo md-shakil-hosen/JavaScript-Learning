@@ -173,8 +173,13 @@
 const numbers = [45, 4, 9, 16, 25];
 const over18 = numbers.filter(myFunction);
 
-document.getElementById("demo").innerHTML = over18;
+//document.getElementById("demo").innerHTML = over18;
 
 function myFunction(value, index, array) {
 return(value > 20);
 }
+console.log(over18);
+// ----------JavaScript Array reduce()----------
+
+const Price1 =[240, 520, 120];
+const arrayReduce = Price1.reduce(myFunction1);
