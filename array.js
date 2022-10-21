@@ -179,7 +179,40 @@ function myFunction(value, index, array) {
 return(value > 20);
 }
 console.log(over18);
+
 // ----------JavaScript Array reduce()----------
 
 const Price1 =[240, 520, 120];
 const arrayReduce = Price1.reduce(myFunction1);
+//document.getElementById("demo1").innerHTML= arrayReduce;
+
+function myFunction1(total, value, index, array){
+    return ( total + value);
+}
+
+// ----------------------------------------
+
+var numbers3 = [42, 56, 23, 14, 25,10, 23];
+let sum = numbers3.reduce(myFunction6, 100);
+
+//document.getElementById("demo2").innerHTML=sum;
+
+function myFunction6(total, value){
+    return total + value;
+}
+
+// ---------------------JavaScript Array every()-------------------------
+var numbers4 = [42, 56, 23, 14, 25,10, 23];
+let sum1 = numbers4.every(everyFunction);
+
+//document.getElementById("demo2").innerHTML=" All over is 10"+ " "+sum1;
+function everyFunction(value, index, Array){
+    return value > 20
+}
+
+// -----------Slice() Method---------------
+
+var fruits = " I am a Programmer";
+
+console.log(fruits.slice(2,7));
+console.log(fruits.slice(-4));
