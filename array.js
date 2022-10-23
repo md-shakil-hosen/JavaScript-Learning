@@ -228,6 +228,30 @@
 //     return value >100;
 // }
 
-const fruits = ["Apple", "Orange", "Apple", "Mango"];
-var lastIndex =fruits.lastIndexOf("Orange") + 1;
-document.getElementById("demo4").innerHTML = lastIndex;
+// const fruits = ["Apple", "Orange", "Apple", "Mango"];
+// var lastIndex =fruits.lastIndexOf("Orange") + 1;
+// document.getElementById("demo4").innerHTML = lastIndex;
+
+// var numbers5 = [42, 56, 23, 14, 25,10, 23];
+// let over = numbers5.find(myFindFounction);
+
+// //document.getElementById("demo5").innerHTML=over;
+
+// function myFindFounction(value, index, array){
+//     return value >18;
+// }
+
+
+// JavaScript Array findIndex()
+
+// var numbers5 = [4, 9, 16, 25, 29];;
+// let result = numbers5.findIndex(myFindIndexFunction);
+
+// document.getElementById("demo5").innerHTML =result;
+
+// function myFindIndexFunction(value, index, array){
+//     return value > 25;
+// }
+
+
+
