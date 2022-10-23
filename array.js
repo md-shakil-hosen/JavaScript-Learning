@@ -227,3 +227,7 @@
 // function someFunction(value, index, array){
 //     return value >100;
 // }
+
+const fruits = ["Apple", "Orange", "Apple", "Mango"];
+var lastIndex =fruits.lastIndexOf("Orange") + 1;
+document.getElementById("demo4").innerHTML = lastIndex;
