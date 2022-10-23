@@ -214,5 +214,9 @@ function everyFunction(value, index, Array){
 
 var fruits = " I am a Programmer";
 
-console.log(fruits.slice(2,7));
-console.log(fruits.slice(-4));
+//console.log(fruits.slice(2,7));
+//console.log(fruits.slice(-4));
+
+
+//JavaScript Array some()
+
