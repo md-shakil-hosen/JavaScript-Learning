@@ -286,5 +286,44 @@ bestNumber.push(25);
 //Creating Date Objects
 // 1. new Date()
 
-var d = new Date();
-document.getElementById("date").innerHTML = d;
+//5 numbers specify year, month, day, hour, and minute:
+var d = new Date(2000, 11, 30, 8, 30 );
+var d1 = new Date(99, 3, 4);
+
+//document.getElementById("date").innerHTML = d;
+//document.getElementById("date").innerHTML = d1;
+
+//new Date(dateString)
+var d2 =new Date("December 30, 2000 8:20:00");
+var d3 =new Date(0);
+//document.getElementById("date1").innerHTML = d3;
+ //1. ISO Date -2000-12-30 (The International Standard  )
+ // 2.Short Date = 30/12/2000
+ //3.Long Date = Mar 25 2015" or "25 Mar 2015
+
+// getFullYear()	Get year as a four digit number (yyyy)
+// getMonth()	Get month as a number (0-11)
+// getDate()	Get day as a number (1-31)
+// getDay()	Get weekday as a number (0-6)
+// getHours()	Get hour (0-23)
+// getMinutes()	Get minute (0-59)
+// getSeconds()	Get second (0-59)
+// getMilliseconds()	Get millisecond (0-999)
+// getTime()	Get time (milliseconds since January 1, 1970)
+
+
+//----------------The getFullYear() Method-----------
+
+const getMethod = new Date("2021-03-25");
+var getResult =getMethod.getDate();
+//document.getElementById("dateMethod").innerHTML = getResult;
+
+//---------------JavaScript Set Date Methods-----------
+// setDate()	Set the day as a number (1-31)
+// setFullYear()	Set the year (optionally month and day)
+// setHours()	Set the hour (0-23)
+// setMilliseconds()	Set the milliseconds (0-999)
+// setMinutes()	Set the minutes (0-59)
+// setMonth()	Set the month (0-11)
+// setSeconds()	Set the seconds (0-59)
+// setTime()	Set the time (milliseconds since January 1, 1970)
