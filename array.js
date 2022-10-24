@@ -333,3 +333,6 @@ var getResult =getMethod.getDate();
 //JavaScript Math Object
 // 1.Math.PI 
 // 2.Math Methods
+    // - Math.Round(1.4) // যদি দশমিক সংখ্যার পরে, ৪ থাকে তাহলে Math.Round এর নিচের পূর্ণসংখ্যাটি দেখাবে।
+    // - Math.Round(1.5) // আর যদি দশমিক এর পরে ৫ ও থাকে তবুও নিচের পূর্ণ সংখ্যাটিই দেখাবে ।
+    // - Math.Round(1.6) // অন্যথায় যদি ৫ এর উপরে দেখায় তাহলে পরবর্তী পূর্ণ সংখ্যা েদেখাবে ।
