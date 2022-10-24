@@ -254,4 +254,37 @@
 // }
 
 
+// বিশেষ শর্তকবার্তা ঃ অবশ্যই জাভাস্কিপ্ট লাইন বাই লাইন পড়ে থাকে । কোন একটি কাজ সংগঠন হওয়ার পরে , ফলাফল দেখাবে এর জন্য শেষ ফলাফলটা দেখার জন্য শেষে কমান্ড এপ্লাই করতে হবে ।
 
+//Create an array
+const cars = ["Saab", "Volvo", "BMW"];
+//Change an Element
+cars[0]="Toyota";
+//Add Element
+cars.push("Novena");
+//Display result
+//document.getElementById("demo6").innerHTML = cars;
+
+
+//Create an Array
+const bestNumber = [20, 56, 32, 10, 20, 12];
+//Change Element 
+bestNumber[1] = 100;
+//Add Element
+bestNumber.push(25);
+//document.getElementById("demo6").innerHTML = bestNumber;
+
+//Const Block Scope
+// const cars1 = ["Saab", "Volvo", "BMW"];
+
+// Block Scope
+// {
+//     const cars1 = ["Saab", "Volvo", "BMW"]
+// }
+// .document.getElementById("demo7").innerHTML = cars1[0];
+
+//Creating Date Objects
+// 1. new Date()
+
+var d = new Date();
+document.getElementById("date").innerHTML = d;
