@@ -327,3 +327,7 @@ var getResult =getMethod.getDate();
 // setMonth()	Set the month (0-11)
 // setSeconds()	Set the seconds (0-59)
 // setTime()	Set the time (milliseconds since January 1, 1970)
+
+
+
+//JavaScript Math Object
