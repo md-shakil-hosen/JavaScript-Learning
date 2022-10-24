@@ -331,3 +331,5 @@ var getResult =getMethod.getDate();
 
 
 //JavaScript Math Object
+// 1.Math.PI 
+// 2.Math Methods
