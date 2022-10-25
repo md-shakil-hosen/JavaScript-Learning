@@ -366,3 +366,41 @@ if(time >10){
 }
 
 //document.getElementById("elseIf").innerHTML = greeting;
+
+// JavaScript Switch Statement 
+// 1.  প্রথমে  ভেরিয়েবল ডিক্লেয়ার করতে হবে । 
+// ২. সুইচ স্টেটমেন্টর কাঠামোর মধ্যে কাজ করতে হবে ।
+
+// let weekDay ;
+
+// switch(কোনটি নিয়ে কাজ করবো তা উল্লেখ করতে হবে । কোন বিষয়ের সাপেক্ষে কাজ করবো তা উল্লেখ করতে হবে ।)
+// case 0:
+// কোন কাজটা হবে তা উল্লেখ েকরতে হবে ।
+// break; এটি মূলত সকল ব্লক চেক করে ,যদি শর্তর মিল খুজে না পায় তাহেলে , ব্রেক করে অন্যটাতে চলে যায় ।
+let loveDay;
+
+switch(new Date().getDay()){
+    case 0:
+        loveDay = "Sunday";
+        break;
+    case 1:
+        loveDay = "Monday";
+        break;
+    case 3:
+        loveDay = "Wednesday";
+        break;
+    case 4:
+        loveDay = "Thursday";
+        break;
+    case 5:
+        loveDay = "Friday";
+        break;
+    case 6:
+        loveDay = "Saturday";
+    default:
+        loveDay = "Looking forward to the Weekend";
+
+}
+
+//document.getElementById("elseIf").innerHTML = "Today is " + loveDay;
+// The default Keyword
