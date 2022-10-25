@@ -345,4 +345,24 @@ var getResult =getMethod.getDate();
     // উদাহরণ ঃ 
    // document.getElementById("mathObject").innerHTML =Math.pow(8,2);
     //Math.sqrt(68)     // কোনো সংখ্যার বর্গ নির্ণয় করার জন্য এটি ব্যবহার করা হযে থাকে । 
-    //Math.abs()        // 
+    //Math.abs(-4,8)   //  এটির মধ্যে যেকোনা নেগেটিভ সংখ্যা থাকলেও , তা েসবসময় পজিটিভ সংখ্যায় দেখোয় ।
+    // Math. min and Math.Max // কোনো একটি অ্যারের মধ্যে থাকা সবচেযে বড় অথবা সবচেয়ে ছোট সংখ্যা বের করার জন্য এটি ব্যবহার করা হয় ।
+    //Math.random()   // রেনডম. ম্যাথ ,, আমাদের যেকোনো সংখ্যা এলোমেলোভোবে দেখায় ।
+
+     //document.getElementById("mathObject").innerHTML =Math.random()
+
+    // document.getElementById("mathObject").innerHTML = Math.min(40,1200,-563,25,-85,45);
+    // document.getElementById("mathObject").innerHTML = Math.max(40,1200,-563,25,-85,45);
+
+const time =new Date().getHours();  // এখানে একটি ভেরিয়েবল নেওয়া হয়েছে । আমরা সময় নিয়ে কাজ করবো এর জন্য একটি নিউ ডে মেথড নিয়েছি । এবং এর মধ্যে থেকে getHours() মেথডটাকে নিয়েছি । কারণ getHours()  হয়তেছে যে new Date( এর একটি মেথড ।
+let greeting; // এখানে নতুন একটি ভেরিয়েবল নিয়েছি যেন , নতুন একটি ভেরিয়েব ডিক্লেয়ার করতে পারি ।
+
+if(time >10){
+    greeting = "Good morning";
+}else if(time <20){
+    greeting = "Good day";
+}else{
+    greeting = "Good evening";
+}
+
+//document.getElementById("elseIf").innerHTML = greeting;
