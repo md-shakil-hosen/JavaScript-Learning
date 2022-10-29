@@ -449,17 +449,19 @@ switch(new Date().getDay()){
 //Set() Method
 
 
-// 1. Create a set
-const latters = new Set(['a','b','c','d']);
-//new set result
-console.log(latters.size);
+// // 1. Create a set
+// const latters = new Set(['a','b','c','d']);
+// //new set result
+// console.log(latters.size);
 
-//1. Create a set
-const addLetters =new Set();
+// //1. Create a set
+// const addLetters =new Set();
 
-//Adding value in set Method
-addLetters.add('Shakil');
-addLetters.add('Shakib');
+// //Adding value in set Method
+// addLetters.add('Shakil');
+// addLetters.add('Shakib');
 
-console.log(addLetters);
-console.log(addLetters.values());
+// console.log(addLetters);
+// console.log(addLetters.values());
+
+//JavaScript Maps
