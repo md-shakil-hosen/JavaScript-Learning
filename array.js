@@ -403,4 +403,45 @@ switch(new Date().getDay()){
 }
 
 //document.getElementById("elseIf").innerHTML = "Today is " + loveDay;
+
 // The default Keyword
+
+
+// JavaScript In Loop
+
+// const person = {fname: "Shakil", lname: "Mahamud", age: 21};
+// let txt =" ";
+
+
+// for (let x in person){
+//     txt +=person[x]; + " ";
+// }
+// console.log(txt);
+
+// The Break Statement
+// let text = "";
+// for (let i = 0; i<10; i++){
+//     if(i === 3){break}
+//     text += "The number is" + i + "<br>"
+// }
+// console.log(text);
+
+// Scope 
+
+
+// let carName = "Volvo"; 
+
+// function myFunction() {
+//   console.log( "I can display " + carName);
+// }
+
+const numbers = [45, 4, 9, 16, 25, "Shakil", "Arham"];
+let text ="";
+numbers.forEach(myFunction);
+
+function myFunction(value, index, array){
+    text +=value + "<br>"
+}
+
+document.getElementById("demo20").innerHTML = text;
+console.log(text);
