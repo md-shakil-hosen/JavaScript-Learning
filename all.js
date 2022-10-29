@@ -465,3 +465,30 @@ switch(new Date().getDay()){
 // console.log(addLetters.values());
 
 //JavaScript Maps
+// const fruits = new Map([
+//     ["apples", 500],
+//     ["bananas", 300],
+//     ["oranges", 200]
+//   ]);
+
+//   const friendsName = new Map([
+//     ["Shakil", 21],
+//     ["Sabbir", 29],
+//     ["Shakib",22],
+//   ])
+
+//   console.log(friendsName.get("Shakil"));
+//   console.log(fruits.get("apples"));
+
+
+// // Set Method
+//  const myProgram = new Map();
+
+//  myProgram.set("JavaScript",80);
+
+
+//  // Delete Method
+//  //myProgram.delete("JavaScript");
+
+//  console.log(myProgram.has("JavaScript"));
+
