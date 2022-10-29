@@ -435,13 +435,31 @@ switch(new Date().getDay()){
 //   console.log( "I can display " + carName);
 // }
 
-const numbers = [45, 4, 9, 16, 25, "Shakil", "Arham"];
-let text ="";
-numbers.forEach(myFunction);
+// const numbers = [45, 4, 9, 16, 25, "Shakil", "Arham"];
+// let text ="";
+// numbers.forEach(myFunction);
 
-function myFunction(value, index, array){
-    text +=value + "<br>"
-}
+// function myFunction(value, index, array){
+//     text +=value + "<br>"
+// }
 
-document.getElementById("demo20").innerHTML = text;
-console.log(text);
+// document.getElementById("demo20").innerHTML = text;
+// console.log(text);
+
+//Set() Method
+
+
+// 1. Create a set
+const latters = new Set(['a','b','c','d']);
+//new set result
+console.log(latters.size);
+
+//1. Create a set
+const addLetters =new Set();
+
+//Adding value in set Method
+addLetters.add('Shakil');
+addLetters.add('Shakib');
+
+console.log(addLetters);
+console.log(addLetters.values());
