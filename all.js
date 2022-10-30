@@ -446,7 +446,7 @@ switch(new Date().getDay()){
 // document.getElementById("demo20").innerHTML = text;
 // console.log(text);
 
-//Set() Method
+//------------------Set() Method---------------
 
 
 // // 1. Create a set
@@ -454,7 +454,7 @@ switch(new Date().getDay()){
 // //new set result
 // console.log(latters.size);
 
-// //1. Create a set
+// //1.---------------- Create a set---------------
 // const addLetters =new Set();
 
 // //Adding value in set Method
@@ -464,7 +464,7 @@ switch(new Date().getDay()){
 // console.log(addLetters);
 // console.log(addLetters.values());
 
-//JavaScript Maps
+//---------------JavaScript Maps-------------------
 // const fruits = new Map([
 //     ["apples", 500],
 //     ["bananas", 300],
@@ -481,14 +481,49 @@ switch(new Date().getDay()){
 //   console.log(fruits.get("apples"));
 
 
-// // Set Method
+// //--------------- Set Method---------------
 //  const myProgram = new Map();
 
 //  myProgram.set("JavaScript",80);
 
 
-//  // Delete Method
+//  // --------------Delete Method--------------
 //  //myProgram.delete("JavaScript");
 
 //  console.log(myProgram.has("JavaScript"));
 
+
+// ----------------Primitive Data---------------
+// string
+// number
+// boolean
+// undefined
+
+// ----------------Complex Data----------------------
+
+//--------------JavaScript Type Conversion-----------
+//-------------JavaScript Regular Expressions--------
+//-----------JavaScript Operator Precedence------------
+//------------JavaScript Arrow Function------------
+//------------JavaScript Modules--------------
+//-----------JavaScript JSON-------------------
+//------------JSON Syntax Rules----------- 
+// Data is in name/value pairs
+// Data is separated by commas
+// Curly braces hold objects
+// Square brackets hold arrays
+
+
+//------JSON Objects---------
+let text = '{"employees":[' +
+'{"firstName":"John","lastName":"Doe" },' +
+'{"firstName":"Anna","lastName":"Smith" },' +
+'{"firstName":"Peter","lastName":"Jones" }]}';
+
+//JSON ফাইলকে একটি অবজেক্ট তৈরি করা হয়েছে া
+const obj =JSON.parse(text);
+// অবজেক্ট থেকে ডাটাগুলোকে দেখানো হয়েছে া
+console.log(obj.employees[1].firstName + " " + obj.employees[1].lastName);
+
+// Converting a JSON Text to a JavaScript Object
+// JavaScript Debugging
