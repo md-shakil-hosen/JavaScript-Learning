@@ -579,13 +579,35 @@ console.log(obj.employees[1].firstName + " " + obj.employees[1].lastName);
 
     console.log(findMax(4, 5, 6));
 
-    const myObject = {
-        fName : " Shakil ",
-        lName : " Mahmud ",
-        fullName : function(){
-            return this.fName + " " + this.lName;
-        }
-    }
-    console.log(myObject.fullName());
+    // const myObject = {
+    //     fName : " Shakil ",
+    //     lName : " Mahmud ",
+    //     fullName : function(){
+    //         return this.fName + " " + this.lName;
+    //     }
+    // }
+    // console.log(myObject.fullName());
 
     //------------JavaScript Function call()------------
+    //--------The JavaScript call() Method----
+
+const person = {   // একটি ভেরিয়েবলে ডিক্লেয়ার করলাম, যার মধ্যে কী রেজাল্ট পাবো তার ইন্সট্রাকশন দেওয়া থাকবে ।
+    fullName : function(){
+        return this.firstName + " " + this.lastName; // এখানে আমরা দিস দ্বারা বোঝায়তেছি যে,lastName অবজেক্টটি এই পারসনের মধ্যেই রয়েছে া 
+    }
+}
+
+const person1 = {
+    firstName: " Shakil",
+    lastName: " Mahmud"
+}
+const person2 = {
+    firstName: " Imran",
+    lastName: " Khan"
+}
+const person3 = {
+    firstName: " Abul",
+    lastName: " Hasan"
+}
+
+console.log(person.fullName.call(person1)); // এখানে fullName অবজেক্টটি  person নামক  ভেরিয়েবলের মধ্যে রয়েছে ্ এবং আমরা সেই ফলনেম টিকে কল করেছি যেন আমাদের ফল নেমটি দেখায় ।  
