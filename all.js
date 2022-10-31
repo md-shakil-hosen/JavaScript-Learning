@@ -611,3 +611,38 @@ const person3 = {
 }
 
 console.log(person.fullName.call(person1)); // এখানে fullName অবজেক্টটি  person নামক  ভেরিয়েবলের মধ্যে রয়েছে ্ এবং আমরা সেই ফলনেম টিকে কল করেছি যেন আমাদের ফল নেমটি দেখায় ।  
+
+//-------The call() Method with Arguments-----
+const person5 = {
+    fullName: function(city, country){
+        return this.firstName + " " + this.lastName + "," + city + "," + country;
+    }
+}
+
+const peroson6 = {
+    firstName: " Shakil",
+    lastName: " Mahmud"
+}
+
+console.log(person5.fullName.call(peroson6, "Dhaka", "Bangladesh"));
+
+//------Simulate a Max Method on Arrays---
+//-----JavaScript Function bind()---
+//----JavaScript Closures-----
+//-----JavaScript Class Inheritance---
+//
+//
+//--JavaScript Callbacks--Function Sequence-
+function myDisplay(some){
+    console.log(some);
+}
+
+function myFrist(){
+    myDisplay ("Hello");
+}
+
+function mySecond(){
+    myDisplay(" Good Bye")
+}
+myFrist()
+mySecond()
