@@ -633,16 +633,19 @@ console.log(person5.fullName.call(peroson6, "Dhaka", "Bangladesh"));
 //
 //
 //--JavaScript Callbacks--Function Sequence-
-function myDisplay(some){
-    console.log(some);
-}
+// function myDisplay(some){
+//     console.log(some);
+// }
 
-function myFrist(){
-    myDisplay ("Hello");
-}
+// function myFrist(){
+//     myDisplay ("Hello");
+// }
 
-function mySecond(){
-    myDisplay(" Good Bye")
-}
-myFrist()
-mySecond()
+// function mySecond(){
+//     myDisplay(" Good Bye")
+// }
+// myFrist()
+// mySecond()
+
+
+// 
