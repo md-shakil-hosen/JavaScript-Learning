@@ -527,3 +527,65 @@ console.log(obj.employees[1].firstName + " " + obj.employees[1].lastName);
 
 // Converting a JSON Text to a JavaScript Object
 // JavaScript Debugging
+//JavaScript Style Guide
+
+
+
+// function myNumber(){  
+//     var i = 20;  
+//     if (i == 20){
+//         console.log("Wrong");
+//         if(i < 15){
+//             console.log("Wrong");
+//         }else if(i < 18){
+//             console.log("Wrong");
+//         }else{
+//             console.log("True");
+//         }
+//     } 
+// }
+// myNumber();
+
+
+
+//   console.log("i is 10");
+    // else if (i == 15)
+    //   console.log("i is 15");
+    // else if (i == 20)
+    //   console.log("i is 20");
+    // else
+    //   console.log("i is not present");
+
+    // var x = myNumber(4, 5);
+
+    // function myNumber(a, b){
+    //     return a + b;
+    // }
+    // console.log(x);
+
+    // const x = function (a, b) {return a * b};
+    // let z = x(5, 6);
+    // console.log(z);
+
+    function findMax(){
+        let max = -Infinity;
+        for(let i = 0; i < arguments.length; i++){
+            if(arguments[i] > max){
+                max = arguments[i];
+            }
+        }
+        return max;
+    }
+
+    console.log(findMax(4, 5, 6));
+
+    const myObject = {
+        fName : " Shakil ",
+        lName : " Mahmud ",
+        fullName : function(){
+            return this.fName + " " + this.lName;
+        }
+    }
+    console.log(myObject.fullName());
+
+    //------------JavaScript Function call()------------
