@@ -12,3 +12,5 @@ var firstNumber = 0.1;
 var secondNumber = 0.2;
 var totalNumber = firstNumber + secondNumber;
 console.log(parseFloat(totalNumber.toFixed(1)));
+
+
