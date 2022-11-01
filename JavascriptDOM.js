@@ -21,4 +21,10 @@
 
 // ---------------------------------------------------------------
 // JavaScript HTML DOM Elements
+//JavaScript HTML DOM - Changing HTML
+// document.getElementById("intro").innerHTML = " Love"
 
+// document.getElementById("date").innerHTML = "Date :" + " " + Date();
+
+//---------JavaScript Forms--------
+//--------JavaScript HTML DOM Events---
