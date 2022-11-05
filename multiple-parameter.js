@@ -1,5 +1,4 @@
 // Use multiple parameter 
-
 var firstNumber = 100;
 var secondNumber = 200;
 function addTwoNumber (number1, number2){
@@ -7,11 +6,10 @@ function addTwoNumber (number1, number2){
     return sum;
 }
 var sumResult = addTwoNumber(firstNumber, secondNumber);
-console.log(sumResult);
+console.log( 'Two sum value is :' +sumResult);
 
 
 // Two  Multiplication  number
-
 var favNumber1 = 34;
 var favNumber2 =45
 function multiplicationTowNum(num1, num2){
@@ -19,14 +17,14 @@ function multiplicationTowNum(num1, num2){
     return multipleCalculation;
 }
 var totalCalculation = multiplicationTowNum(favNumber1, favNumber2);
-console.log(totalCalculation);
+console.log('Tow multiply result is:' +totalCalculation);
 
 
 // Division Two Number
-
 function twoNumberDivision(num1, num2){
     var division = num1 / num2;
     return division;
 }
 var divisionResult = twoNumberDivision(100, 50);
-console.log(divisionResult);
+console.log( 'Division value is:'+divisionResult);
+
