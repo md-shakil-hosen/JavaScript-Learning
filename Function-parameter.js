@@ -3,7 +3,6 @@ function bringMango(taka){
     var mangoQuantity = taka / mangoPrice;
     return mangoQuantity;
 }
-
 var money = 200;
 var totalMango = bringMango(money);
 console.log( 'মামা ! এই যে নেন আপনার', totalMango , ' টা সিঙ্গারা');
