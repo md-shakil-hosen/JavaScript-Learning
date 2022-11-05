@@ -28,3 +28,13 @@ function twoNumberDivision(num1, num2){
 var divisionResult = twoNumberDivision(100, 50);
 console.log( 'Division value is:'+divisionResult);
 
+
+
+// Three Number Add by three parameter
+
+function threeNumberAdd(num1, num2, num3){
+    var sumThreeNumber = num1 + num2 + num3;
+    return sumThreeNumber;
+}
+var threeNumberResult = threeNumberAdd(20, 12, 30);
+console.log( 'Your three Number value is:'+threeNumberResult);
