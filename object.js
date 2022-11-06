@@ -6,3 +6,17 @@ var mobile = {
     screenSize: 5,
     price: 20000
 };
+
+var TV = {
+    brandName : "SAMSUNG",
+    color: "Black",
+    ScreenSize: 21,
+    price: 32
+};
+
+var student = {
+    id: 255,
+    name: "Abir",
+    class: 4,
+    Department: " CSE"
+};
