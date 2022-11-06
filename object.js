@@ -20,3 +20,14 @@ var student = {
     class: 4,
     Department: " CSE"
 };
+student.Department = "EEE";
+student["class"] = 6;
+console.log(student.Department);
+
+// Read The any object property
+var TvPrice = TV.brandName;
+var classProperties = "class"
+student.classProperties = "9"
+
+student.Department = "CSE";
+console.log(student);
