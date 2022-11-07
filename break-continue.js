@@ -21,11 +21,11 @@
 
 
 // for loop with break statement
-for( var i = 0; i <=20; i++){
-    if(i > 7){
-        break;
-    }
-}
+// for( var i = 0; i <=20; i++){
+//     if(i > 7){
+//         break;
+//     }
+// }
 // console.log(i);
 
 // Declaration Loop , Break Statement 
@@ -34,11 +34,22 @@ for( var i = 0; i <=20; i++){
 
  var favNumbers = [34, 36, 76, 100, 101, 500, 40, 45, 34, 23, 78, 23];
 
- for(var i = 0; i < favNumbers.length; i++){ //  i variable  এর মধ্যে সকল এ্যারের উপাদানসমূহকে নেওয়া হয়েছে
-    var number = favNumbers[i]; //  Array  এর মান গুলো অন্য একটি ভরিয়েবলের মধ্যে রাখা হয়েছে ।
-    console.log(number);
-    if(number > 100 ){ // যদি  number এর মধ্যে থাকা  Arry এর মান যদি ১০০ এর বড় হয় তাহলে লুপ বন্ধ হয়ে যাবে 
-        break;
-    }
+//  for(var i = 0; i < favNumbers.length; i++){ //  i variable  এর মধ্যে সকল এ্যারের উপাদানসমূহকে নেওয়া হয়েছে
+//     var number = favNumbers[i]; //  Array  এর মান গুলো অন্য একটি ভরিয়েবলের মধ্যে রাখা হয়েছে ।
+//     console.log(number);
+//     if(number > 100 ){ // যদি  number এর মধ্যে থাকা  Arry এর মান যদি ১০০ এর বড় হয় তাহলে লুপ বন্ধ হয়ে যাবে 
+//         break; 
+//     }
  
+//  }
+
+ // Continue Statement
+
+ for(var i = 0; i < favNumbers.length; i++){
+    var skipNumber = favNumbers[i];
+    console.log(skipNumber);
+    if(i > 90){
+        continue;
+    }
+
  }
