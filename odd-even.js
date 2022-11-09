@@ -1,5 +1,5 @@
 
-
+// Check Odd and Even Number
 function isEven(number){
  if(number % 2 == 0){
     return true;
