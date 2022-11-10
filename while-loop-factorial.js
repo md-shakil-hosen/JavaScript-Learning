@@ -8,4 +8,7 @@
         factorial = factorial * i;
         i++;
     }
+    return factorial;
  }
+const valueOfFactorial = getFactorial(7);
+ console.log(valueOfFactorial);
