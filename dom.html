@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dom Class -01</title>
+  </head>
+  <body>
+    <h1>Welcome to My Website</h1>
+
+
+    <input id="change" type="text">
+    <button onclick="onKeyChange()" >Click Me </button>
+
+    <input id="focusChange" type="text">
+    <button onclick="onFocusChange()" >Click Me </button>
+
+
+    <!-- Enter Your Name : <input type="text" id="fname" onkeyup="onKeyChange()"> -->
+
+
+    <section>
+        <article>
+            <h3>My Awsome Blog -1</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae tempore ut sequi commodi rem magnam saepe perspiciatis aliquam sapiente ad dolorem ullam, cum ratione corrupti iste voluptatum quibusdam facere quis.</p>
+        </article>
+        <article>
+            <h3>My Awsome Blog -2</h3>
+            <p>Aspernatur reprehenderit praesentium voluptatem autem molestias obcaecati pariatur eum, maiores rem nulla perferendis rerum corporis a dicta impedit vitae vero libero. Aliquid autem ex a, ducimus maxime sed culpa mollitia!</p>
+        </article>
+        <article>
+            <h3>My Awsome Blog -3</h3>
+            <p>Modi unde animi voluptate earum harum explicabo exercitationem quam numquam, aperiam, facilis, ipsa magni deleniti eius saepe dolore minima asperiores cumque ea quae deserunt? Quod ducimus omnis quis in dolor?</p>
+        </article>
+    </section>
+    <script>
+
+// on Change to upperCase text
+function onKeyChange(){
+    let name = document.getElementById("change");
+    let color = document.getElementById("change").style.background = 'red';
+    let fontSize = document.getElementById("change").style.fontSize = "24px";
+    name.value = name.value.toUpperCase();
+}
+function onFocusChange(){
+    let name = document.getElementById("focusChange");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function addClick(){
+    let result = text.toUpperCase();
+    document.getElementById("change").innerHTML = result;
+    document.getElementById("demo").innerHTML =result;
+}
+
+        const blogTitle = document.getElementsByTagName("h3");
+        for(const h3 of blogTitle){
+            // console.log(h3.innerText);
+        }
+         const blogDetails = document.getElementsByTagName("p");
+         for(const p of blogDetails){
+            console.log(p.innerText);
+         }
+    </script>
+  </body>
+</html>
