@@ -17,5 +17,5 @@ document.getElementById("updateName").addEventListener('click', function(){
     const nameFiled = document.getElementById("name-field"); 
     const p = document.getElementById("updateText"); // Display  update the value
     p.innerText = nameFiled.value; // Connect to tha input value 
-    nameFiled.value = ''; // Blank Field 
+    nameFiled.value = ''; // Blank the input Field  after update 
 })
