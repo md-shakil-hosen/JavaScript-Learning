@@ -16,5 +16,4 @@ commentContainer.appendChild(newComment);
 //5. Clean The Comment Box
 commentText.value = '';
 
-
 })
