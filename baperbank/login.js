@@ -11,9 +11,11 @@ document.getElementById('login-submit').addEventListener('click', function(){
     const userPass = PasswordField.value;
     PasswordField.value = '';
 
-    // conditions
+    // conditions || Check Email and Password
     if(userEmail == 'admin@gmail.com' && userPass == 'ami'){
         //Redirect another page location
         window.location.href = 'banking.html'
     }
-})
+});
+
+
