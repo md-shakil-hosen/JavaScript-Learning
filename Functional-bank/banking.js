@@ -1,9 +1,21 @@
+// Get Deposit Button with function
+
+function getInputValue(inputId){
+    const inputField = document.getElementById(inputId);
+    const inputAmountText = inputField.value;
+    const amountValue = parseFloat(inputAmountText);
+    inputField.value = '';
+    return amountValue;
+}
+
+
+
+
+
 // Get deposit button 
 document.getElementById('deposit-button').addEventListener('click', function(){
-    const depositInput = document.getElementById('deposit-input');
-    const depositAmountText = depositInput.value;
-    const depositAmount = parseFloat(depositAmountText);
-    depositInput.value = '';
+    const depositAmount = getInputValue('deposit-input');
+  
 
 //get Current Deposit Amount
     const depositTotal = document.getElementById('deposit-total');
@@ -18,12 +30,16 @@ document.getElementById('deposit-button').addEventListener('click', function(){
     balanceTotal.innerText = previousBalanceTotal + depositAmount;
 });
 
+
+
+
 // Get Withdraw button 
 document.getElementById('Withdraw-button').addEventListener('click', function(){
-   const withdrawInput = document.getElementById('Withdraw-input');
-   const withdrawAmountText = withdrawInput.value;
-   const withdrawAmount = parseFloat(withdrawAmountText);
-   withdrawInput.value = '';
+//    const withdrawInput = document.getElementById('Withdraw-input');
+//    const withdrawAmountText = withdrawInput.value;
+//    const withdrawAmount = parseFloat(withdrawAmountText);
+       const withdrawAmount = getInputValue('Withdraw-input');
+
 
 //Update Withdraw Amount
     const withdrawTotal = document.getElementById('withdraw-total');
